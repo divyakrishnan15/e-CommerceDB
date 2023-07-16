@@ -1,9 +1,4 @@
-<!-- # SVG LOGO maker with nodejs ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
- [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) 
- [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
- [![Inquirer](https://img.shields.io/badge/Inquirer-0d0d0d?style=for-the-badge&logo=inquirer&logoColor=white)](https://www.npmjs.com/package/inquirer) -->
 
- 
 <h1 align="center">e-Commerce DB👋</h1>
   
 <p align="center">
@@ -16,9 +11,9 @@
   
 <p align="center">
     <img src="https://img.shields.io/badge/Javascript-yellow" />
-    <!-- <img src="https://img.shields.io/badge/jQuery-blue"  /> -->
+    <!-- <img src="https://img.shields.io/badge/Routes-blue"  /> -->
     <img src="https://img.shields.io/badge/-node.js-green" />
-    <img src="https://img.shields.io/badge/-ORM-routes-red" >
+    <img src="https://img.shields.io/badge/-ORM-red" >
     <img src="https://img.shields.io/badge/-sequelize-lightgrey" />
     <img src="https://img.shields.io/badge/-json-orange" />
     <img src="https://img.shields.io/badge/mySQL-blue"  />
@@ -48,14 +43,12 @@
  
  ## Description :  
  <a name="Description"></a>  
-1. I start the application, I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
-2. I choose to view all departments, I am presented with a formatted table showing department names and department ids
-3. I choose to view all roles, I am presented with the job title, role id, the department that role belongs to, and the salary for that role
-4. I choose to view all employees, I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
-5. I choose to add a department, I am prompted to enter the name of the department and that department is added to the database
-6. I choose to add a role, I am prompted to enter the name, salary, and department for the role and that role is added to the database
-7. I choose to add an employee, I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
-8. I choose to update an employee role, I am prompted to select an employee to update and their new role and this information is updated in the database
+ 1. I should connect to e-Commer DB when I enter MySQL username, and MySQL password to an environment variable file
+ 2. I am able to connect to a database using Sequelize
+ 3. I enter schema and seed commands, a development database is created and is seeded with test data
+ 4. I enter the command to invoke the application, my server is started and the Sequelize models are synced to the MySQL database
+ 5. I open API GET routes in Insomnia for categories, products, or tags, the data for each of these routes is displayed in a formatted JSON
+ 6. I test API POST, PUT, and DELETE routes in Insomnia, I am able to successfully create, update, and delete data in my database
 
  ## Questions :  
  <a name="Questions"></a> 
@@ -64,12 +57,12 @@
  
     | Github Username  | **Email id** | **Github Repo link** | **Deployed Url** | **Contributor** |
     | --- | --- | --- | --- | --- |
-    | [divyakrishnan15](https://github.com/divyakrishnan15) | divya@gmail.com | [eCommerceDB](https://github.com/divyakrishnan15/e-commereDB_orm_mysql_expressjs/) | [eCommerceDB](https://divyakrishnan15.github.io/e-commereDB_orm_mysql_expressjs/) | Sole Contributor |
+    | [divyakrishnan15](https://github.com/divyakrishnan15) | divya@gmail.com | [eCommerceDB](https://github.com/divyakrishnan15/e-CommerceDB/) | [eCommerceDB](https://divyakrishnan15.github.io/e-CommerceDB/) | Sole Contributor |
 
  ## Installation :  
  <a name="Installation"></a> 
 ```shell 
-npm i express,nodemon,dotenv,path,mysql2
+npm i express,nodemon,dotenv,path,mysql2,seeds
 ```
 
 To generate svg :
@@ -92,30 +85,17 @@ npm i
  ## Usage :  
  <a name="Usage"></a> 
  Download the code to your local. 
- Perform **npm i** to install all the packages. 
- Answer the questions asked in the command prompt like(
-   1. View All Departments
-   2. View All Roles
-   3. View All Employees
-   4. Add a Department
-   5. Add a Role
-   6. Add an Employee
-   7. Update an Employee Role
-   8. Update Employee Managers
-   9. View Employees by Manager
-   10.View Employees by Department
-   11.View combined salaries of All Employees in that Department
-   12.Delete Employee
-   13.Delete Role
-   14.Delete Department
-   15.Filter Employees by Manager
-   16.Filter Employees by Department
-   17.Quit
+ open insomnia and GET/POST/PUT/DELETE , GET single the routes
+
+ example:
+ http://localhost:3001/api/categories
+ http://localhost:3001/api/products
+ http://localhost:3001/api/tags
  
    
  ## Watchme Video- (click on the video to play) : 
  <a name="Video"></a> 
- [![Watch the video](https://img.youtube.com/vi/934oILi92pc/maxresdefault.jpg)](https://youtu.be/934oILi92pc)
+ [![Watch the video](https://img.youtube.com/vi/0AuYDAR__w0/maxresdefault.jpg)](https://youtu.be/0AuYDAR__w0)
 
  ## Contribution :  
  <a name="License"></a> 
