@@ -126,7 +126,7 @@ router.put('/:id', (req, res) => {
         });
       }
 
-      return res.json(product);
+      res.json({message:`Successfully UPDATED Product with id= ${req.params.id}`})
     })
     .catch((err) => {
       // console.log(err);
