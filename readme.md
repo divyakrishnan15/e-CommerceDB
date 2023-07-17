@@ -2,10 +2,10 @@
 <h1 align="center">e-Commerce DB👋</h1>
   
 <p align="center">
-    <img src="https://img.shields.io/github/repo-size/divyakrishnan15/e-commereDB_orm_mysql_expressjs" />
-    <img src="https://img.shields.io/github/languages/top/divyakrishnan15/e-commereDB_orm_mysql_expressjs"  />
-    <img src="https://img.shields.io/github/issues/divyakrishnan15/e-commereDB_orm_mysql_expressjs" />
-    <img src="https://img.shields.io/github/last-commit/divyakrishnan15/e-commereDB_orm_mysql_expressjs" >
+    <img src="https://img.shields.io/github/repo-size/divyakrishnan15/e-CommerceDB" />
+    <img src="https://img.shields.io/github/languages/top/divyakrishnan15/e-CommerceDB"  />
+    <img src="https://img.shields.io/github/issues/divyakrishnan15/e-CommerceDB" />
+    <img src="https://img.shields.io/github/last-commit/divyakrishnan15/e-CommerceDB" >
     <a href="https://github.com/divyakrishnan15"><img src="https://img.shields.io/github/followers/divyakrishnan15?style=social" target="_blank" /></a
 </p>
   
@@ -88,9 +88,9 @@ npm i
  open insomnia and GET/POST/PUT/DELETE , GET single the routes
 
  example:
- http://localhost:3001/api/categories
- http://localhost:3001/api/products
- http://localhost:3001/api/tags
+ http://localhost:3001/api/categories \n
+ http://localhost:3001/api/products \n
+ http://localhost:3001/api/tags \n
  
    
  ## Watchme Video- (click on the video to play) : 
