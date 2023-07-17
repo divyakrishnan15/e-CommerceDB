@@ -88,9 +88,11 @@ npm i
  open insomnia and GET/POST/PUT/DELETE , GET single the routes
 
  example:
- http://localhost:3001/api/categories \n
- http://localhost:3001/api/products \n
- http://localhost:3001/api/tags \n
+ http://localhost:3001/api/categories 
+ 
+ http://localhost:3001/api/products 
+ 
+ http://localhost:3001/api/tags 
  
    
  ## Watchme Video- (click on the video to play) : 
